@@ -1,0 +1,2 @@
+g++ -O3 -fopenmp SSA_SNN_Sparse_4_Mode_Main.cpp -o SSA_SNN_Sparse_4_Mode_Main.exe
+./SSA_SNN_Sparse_4_Mode_Main.exe

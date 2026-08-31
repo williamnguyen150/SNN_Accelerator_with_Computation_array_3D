@@ -1,0 +1,9 @@
+// Different sparsities, 3 different mode:
+
+g++ -std=c++20 -O3 -fopenmp S_QKV_SNN_Sparse_Main.cpp -o S_QKV_SNN_Sparse_Main.exe
+./S_QKV_SNN_Sparse_Main.exe
+
+// One input file, 3 different mode:
+
+g++ -std=c++20 -O3 -fopenmp S_QKV_SNN_3_Mode_Main.cpp -o S_QKV_SNN_3_Mode_Main.exe
+./S_QKV_SNN_3_Mode_Main.exe
